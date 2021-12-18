@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/weather.css">
+    <title>Weather Information</title>
+</head>
+<body>
+
+    <div class="mb-3 div1 border border-warning border-2 rounded-3 shadow-lg">
+        <h1 class="text-center display-5">Weather Information App</h1><br>  
+        <div class="row mb-3">
+            <label class="col-sm-2 col-form-label">Enter City Name:</label>
+            <form autocomplete="off" class="col-sm-10" action="">
+                <input class="form-control" type="text" list="datalistOptions"  name="" id="cityName" placeholder="Enter a city name" required>
+            </form>
+        </div>
+        <div class="d-grid gap-2">
+            <button type="submit" id="weather_data" class="btn btn-outline-warning ">Get Weather Information</button>
+        </div>
+        
+        <div id="weather" class="row">
+            <label class="col-sm-3">Temprature:</label>
+            <span class="col-sm-9" id="temprature"></span>
+            <label for="" class="col-sm-3">Humidity:</label>
+            <span class="col-sm-9" id="humidity"></span>
+            <label for="" class="col-sm-3">Feels like:</label>
+            <span class="col-sm-9" id="feelslike"></span>
+            <label for="" class="col-sm-3">Pressure:</label>
+            <span class="col-sm-9" id="pressure"></span>
+            <label for="" class="col-sm-3">Visibility:</label>
+            <span class="col-sm-9" id="visibility"></span>
+            <label for="" class="col-sm-3">Clouds:</label>
+            <span class="col-sm-9" id="clouds"></span>
+        </div> 
+        
+        
+        
+    </div>
+    <datalist id="datalistOptions">
+        <option value="Assam">Assam</option>
+        <option value="Bihar">Bihar</option>
+        <option value="Chandigarh">Chandigarh</option>
+        <option value="Chhattisgarh">Chhattisgarh</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Goa">Goa</option>
+        <option value="Gujarat">Gujarat</option>
+        <option value="Haryana">Haryana</option>
+        <option value="Jharkhand">Jharkhand</option>
+        <option value="Karnataka">Karnataka</option>
+        <option value="Kerala">Kerala</option>
+        <option value="Maharashtra">Maharashtra</option>
+        <option value="Manipur">Manipur</option>
+        <option value="Meghalaya">Meghalaya</option>
+        <option value="Mizoram">Mizoram</option>
+        <option value="Nagaland">Nagaland</option>
+        <option value="Odisha">Odisha</option>
+        <option value="Punjab">Punjab</option>
+        <option value="Rajasthan">Rajasthan</option>
+        <option value="Sikkim">Sikkim</option>
+        <option value="TamilNadu">
+        <option value="Telangana">Telangana</option>
+        <option value="Tripura">Tripura</option>
+        <option value="Uttarakhand">Uttarakhand</option>        
+      </datalist>
+</body>
+<script src="JS/weather.js"></script>
+</html>

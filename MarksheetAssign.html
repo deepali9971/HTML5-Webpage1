@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marksheet</title>
+    <link rel="stylesheet" href="CSS/MarksheetAssign.css">
+    <script src="JS/MarksheetAssign.js"></script>
+</head>
+<body>
+    <form id="form1">
+        Name: <input type="text" name="name" id="name" placeholder="Enter your name">
+        Roll No:<input type="text" name="roll" id="roll" placeholder="Enter your Roll No"><br><br>
+        Sem:<input type="text" name="sem" id="sem" placeholder="Enter your Semester">
+        Branch:<input type="text" name="branch" id="branch" placeholder="Enter your Branch"><br><br>
+        <p>Marks</p>
+        Course 1:<input type="text" name="c1" id="c1">
+        Course 2:<input type="text" name="c2" id="c2">
+        Course 3:<input type="text" name="c3" id="c3">
+        Course 4:<input type="text" name="c4" id="c4">
+        Course 5:<input type="text" name="c5" id="c5"><br><br>
+    </form>
+    <input type="submit" onclick="showInput();"><br><br>
+    <br><br>
+    <div class="border">
+        <h2 class="cen">The NorthCap University</h2>
+        <h3 class="cen">Session 2020-21 Marksheet</h3>
+        <div class="space">
+            Name: <span id="displayname"></span> &nbsp;
+            Roll No: <span id="displayroll"></span> &nbsp;
+            Sem: <span id="displaysem"></span> &nbsp;
+            Branch: <span id="displaybranch"></span>&nbsp;
+            <div class="course">
+                Course 1: <span id="displayc1"></span><br>
+                Course 2: <span id="displayc2"></span><br>
+                Course 3: <span id="displayc3"></span><br>
+                Course 4: <span id="displayc4"></span><br>
+                Course 5: <span id="displayc5"></span><br>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
