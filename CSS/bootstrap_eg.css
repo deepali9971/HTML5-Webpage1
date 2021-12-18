@@ -1,0 +1,7 @@
+div{
+    border: 1px red solid;
+}
+.social{
+    display: flex;
+    border: 0px;
+}

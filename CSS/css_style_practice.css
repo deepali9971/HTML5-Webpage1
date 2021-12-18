@@ -1,0 +1,49 @@
+h2{
+    color: aqua;
+    border: 3px blue dotted;
+    color: red;
+    background-color: lightcyan;
+}
+.bgcol{
+    background-color: rgb(158, 223, 186);
+    position: relative;
+}
+#talign{
+    text-align: center;
+    background-color: lightyellow;
+    background-image: url(../Images/Google.jpg);
+}
+body{
+    background-image: url(../Images/image.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+.h2margin{
+    margin: 100px;
+    padding: 100px;
+}
+.para1{
+    background-color: lime;
+    position: fixed;
+}
+
+.para2{
+    background-color: lightgray;
+    position: absolute;
+}
+
+.para3{
+    background-color: lightpink;
+    position: relative;
+
+}
+.para4{
+    width: 100px;
+    height: 100px;
+    overflow: visible;
+    border: 4px red solid;
+    overflow: auto;
+    display: inline-block;
+    display: block;
+}

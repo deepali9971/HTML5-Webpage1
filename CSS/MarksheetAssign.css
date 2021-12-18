@@ -1,0 +1,19 @@
+.cen{
+    text-align: center;
+}
+
+.border{
+    
+    padding: 10px;
+    border: 5px solid black;
+    margin: 150px;
+}
+.space{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.course{
+    padding: 10px;
+    border: 2px solid black;
+    margin: 15px;
+}

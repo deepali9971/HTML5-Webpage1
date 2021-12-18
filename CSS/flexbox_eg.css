@@ -1,0 +1,37 @@
+.left{
+    width:15%;
+    border: 2px solid blue;
+    margin: 0px;
+}
+.center{
+    width: 50%;
+    border: 2px dotted red;
+}
+.right{
+    width: 35%;
+    border: 2px dashed green;
+}
+#parent{
+    display: flex;
+}
+img{
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid red;
+    background-color: lightcyan;
+}
+.dept{
+    display: none;
+}
+
+.dept:hover{
+    display: list-item;
+}
